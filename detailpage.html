@@ -1,0 +1,95 @@
+<html>
+	<head>
+<meta charset="UTF-8">
+	<title>Observatories Details Page</title>
+	
+		<!--libraries and styles-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel= "stylesheet" href = "styles/style.css">     
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+	 
+	 
+	 
+
+		<style>
+			body {margin:0;width: 100%;
+			font-family: sans-serif;
+			background-image: url("images/img10.jpg");
+			           }
+		</style> 
+	</head>
+
+<body>
+
+		<!--run navigation bar and banner script--> 
+	<script src="scripts/navBar.js"></script>
+		
+		<!--naming of observeProfile div to be called in controller--> 
+	<div id="observeProfile"class="card-group container"> 	</div>
+
+
+		<!--  divs for ratings and review functions  --> 
+	<div class='forum1'><div class='forumspace2'>
+	<div class='card'>	<div class='card-body'>
+
+		<!-- ratings stars   --> 
+	<div id="observeName"> 	</div>	
+	<div class="banner-section" id="img-container"></div>	
+
+			<!-- user ratings   --> 
+		<h3 style=margin-left:400px >Rate this observatory?</h3>
+			<button class="btn btn-primary"style=margin-left:50px>Rate here</button>
+				<h1></h1><br><br>
+
+		<!-- user reviews   --> 
+	<p>Leave a review:<br>	
+	<textarea type="text" id="myReview"placeholder='Message' rows='5' cols='64' >18039690</textarea></p>
+
+	<p><button class="btn btn-primary" onclick="setReview()">Submit review</button><br>
+
+	<p id="reviews"></p></p>
+
+</div>
+	</div>
+		</div>
+			</div>
+	
+		
+		<!-- name the footer ID -->
+	<h5> 
+	<div id="myFooter"></div>
+	</h5>
+
+
+</body>
+
+			<!-- import data directly from javascript file  -->
+	<script type="text/javascript" src="scripts/observeJSON.js"></script>
+  
+			<!-- define the function to display the data -->
+	<script type="text/javascript" src="scripts/observeDetailCtrlr.js"></script>
+	
+			<!-- scripts to run the map functions   --> 
+	<script type="text/javascript" src="scripts/funcMap.js"></script>
+	
+			<!--  leave a review, send to server scripts  --> 
+	<script type="text/javascript" src="scripts/funcReview.js"></script>	
+	
+			<!-- function to leave rating   --> 
+	<script type="text/javascript" src="scripts/funcRate.js"></script>	
+	
+				<!--  display details of the observeatory function  --> 
+	<script type="text/javascript" src="scripts/funcShowDetails.js"></script>	
+	
+				<!--  function to show star rating  --> 
+	<script type="text/javascript" src="scripts/funcStars.js"></script>	
+	
+				<!-- run the footer script -->	
+	<script src="scripts/footer.js"></script>
+	
+</html>
+

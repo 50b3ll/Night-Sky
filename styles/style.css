@@ -1,0 +1,336 @@
+			body {margin:0;width: 100%;
+			font-family: sans-serif;
+			background-image: url("images/img10.jpg");
+			           }
+  
+        ul {
+            list-style-type: none;
+            padding: 0;
+            overflow: hidden;
+            background-color: grey;
+            margin-top: 0px;
+            width: 100%;
+            font-family: sans-serif;
+        }
+
+        .banner{
+        margin: 0px;
+        padding: 0px;
+		background: black;
+        width: 100%; 
+		}
+		
+		.navbar a {
+		  float: left;
+		  font-size: 16px;
+		  color: white;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		}
+
+		.navbar a:hover, .dropdown:hover .dropbtn {
+		 background-color: black;
+		}
+
+		.container {
+		padding: 8px 120px;
+		border-radius: 20px;
+		color:white;		
+		}	
+  
+ 
+	  .panel-body{
+	  color:#333333!important;  
+	  margin-left:100px;  
+	  margin-right:100px; 
+	  font-size:20px;
+	  display:block!important;
+	  		}
+			
+	        .gallery {
+            background-color:  white!important;
+            border: 5px solid grey;
+            border-radius: 5px;
+            width: 200px;
+            height: 150px;
+            margin-left:100px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            display: inline-block;
+            padding: 5px;
+        }
+
+        .gallery img {
+            width: 100px;
+            height: 100px;
+            padding: 5px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;  
+            transition: transform .2s;
+        }
+
+        .gallery:hover {
+            -ms-transform: scale(1.9);
+            -webkit-transform: scale(1.9);
+            transform: scale(1.9);
+        }	
+		
+	    .panel-primary {
+		 background-color:  #fcfcfc !important;
+		 border-color:#333333!important;
+		 font-size:20px!important;		   	    
+		}
+
+       .panel-heading{
+		background-color: #4d4d4d!important;
+	    font-size:30px!important;
+		}
+				
+  
+	   h1{
+	   color: #333333!important; 
+	   margin-left: 20px;
+	   font-size: 40px!important;
+	   text-align: center!important;
+	 }
+	 
+	 	h2{
+			color:#333333!important;      
+            margin-left: 50px;
+			}	
+	
+		h3{
+			color:#333333!important;      
+            margin-left: 50px;
+			}
+			
+	
+  		h5{
+			color:#333333!important;      
+            margin-left: 50px;
+			}
+  
+ 
+      .btn-primary{
+		  background-color:#333333!important;
+	      float:right !important;
+		}
+		
+			.btn-location{background-color:#333333;
+	  margin-left: 500px; margin-top: 50px;
+		  margin-bottom: 5px;
+		  border:3px;
+	  border-color: #333333;
+	  color:#fcfcfc;
+		}
+		
+		
+		
+		
+		
+		
+		
+		.thumbnail {
+		  border: 1px solid #ddd;
+		  border-radius: 4px;
+		  padding:10px;
+		  width: 200px!important;
+		  height:150px!important;
+		  margin: 50px;
+		}
+		
+		.thumbnail2 {
+		  border: 1px solid #ddd;
+		  border-radius: 4px;
+		  padding:10px;
+		  width: 600px;
+		  height:450px;
+		  margin: 50px;
+			display: block;
+		  margin-left: auto;
+		  margin-right: auto;
+		}
+		
+		.map{
+border:20px;
+border-color:pink;
+margin:50px;
+}
+		
+	  .card {
+		 background-color:  #fcfcfc !important;
+		 border-color:#333333!important;
+		 font-size:20px!important;
+		   	    
+		}
+
+       .card-header{
+		   background-color: #4d4d4d!important; 
+		   padding: 20px!important;
+	   font-size:30px!important;
+		}
+
+	  .card-body{
+	  color:#333333!important;  
+	  margin-left:100px;  
+	  margin-right:100px; 
+	  font-size:20px;
+display:block!important;
+	  
+		}		
+		
+		
+		label{color:#333333!important;
+	text-align: left!important;;
+	}
+	
+		.what{
+text-align: center;
+	}
+	
+          .forum1{
+            margin-left:294px;
+			margin-right:294px;
+            padding: 5px;
+            width:auto;
+            background-color: white;
+
+        }
+
+
+	
+	.sorter{
+	width:150px;
+	margin-left:1050px;}
+	select{border: none!important;
+	background-color:transparent;
+	}
+.dropdown-menu{
+	width:150px;
+	margin-left: 800px;
+
+		
+	        input[type=text], select {
+            width: auto;
+            padding: 12px 12px;
+            border: 2px solid #333333;
+            border-radius: 2px;
+            background-color: white;
+            margin-left: auto;
+            font-family: sans-serif;
+            font-size: medium;
+            color: #333333;
+        }	
+		
+		
+		
+	        .posting {
+            margin-left: 100px;
+            margin-top: 30px;
+            display: inline-block;
+            padding: 5px;
+            color:  #333333;
+            font-size: large;
+            font-family: sans-serif;
+            width:auto;
+        }	
+		
+		
+	        input[type="submit"]:hover {
+             background-color: #bcbcbc;
+         }
+        .forumspace{
+            margin-left: 45px;
+        }
+
+
+        .forumspace2{
+            margin-top: 20px;
+        }	
+	         input[type=submit]
+        {
+            background-color:#cccccc;
+            border: 2px solid #333333;
+            color: #333333;
+            padding: 8px 20px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 8px;
+            font-family: sans-serif;
+            font-size: 16px;
+        }	
+		
+	        textarea {
+            width: auto;
+            padding: 12px 12px;
+            border: 2px solid 333333;
+            border-radius: 2px;
+            background-color: white;
+            margin-left: auto;
+            font-family: sans-serif;
+            font-size: medium;
+            color: 333333;
+        }
+	
+	        input[type=text], select {
+            width: auto;
+            padding: 12px 12px;
+            border: 2px solid #333333;
+            border-radius: 2px;
+            background-color: white;
+            margin-left: auto;
+            font-family: sans-serif;
+            font-size: medium;
+            color: 333333;
+        }	
+		
+		
+		  .posting {
+            margin-left: 100px;
+            margin-top: 30px;
+            display: inline-block;
+            padding: 5px;
+            color:  333333;
+            font-size: large;
+            font-family: sans-serif;
+            width:auto;
+        }
+		
+		
+		
+		
+span {
+  display: inline-block;
+  position: relative;
+  width: 1.2em;
+  height: 1.2em;
+ 
+}
+.high {
+  color: rgb(217, 211, 0);
+}
+
+
+
+
+
+		
+			.title{
+		  text-align: center;
+	}
+	.main{
+	  display: flex;
+justify-content: center;
+	}
+	
+	.main img{
+  border-radius: 50%;
+  
+    max-width: 100%;
+  height: auto;
+
+
+}

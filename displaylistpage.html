@@ -1,0 +1,76 @@
+<html>
+	<head>
+  <meta charset="UTF-8">
+	<title>Dark Skies Observatories List</title>
+  
+		<!--libraries and styles-->  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel= "stylesheet" href = "styles/style.css">
+	
+	
+		<style>
+			body {
+			margin:0;width: 100%;
+			font-family: sans-serif;
+			background-image: url("images/img10.jpg");
+				}    
+		</style> 
+	</head>
+
+<body>
+
+		<!--run navigation bar and banner script--> 
+	<script src="scripts/navBar.js"></script>
+	
+		<!--  dropdown for sorting options  --> 
+	<h1></h1>
+	<div class="panel-group container" >
+	<div class="dropdown">
+  
+	<select  id="cat"></select>  
+		<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Sort By Order  </button>
+			<ul class="dropdown-menu">
+					<li><a class="sortoptions" id="AtoZ">Sort by Name A to Z</a></li>
+					<li><a class="sortoptions" id="ZtoA">Sort by Name Z to A</a></li>
+					<li><a class="clearsort" href="displaylistpage.html">Default View</a></li>
+			</ul>
+	</div>
+		</div><br>
+	
+		<!--naming of observeList div to be called in controller--> 
+	<div id="observeList" class="panel-group container", style="text-align: left"> 
+		</div>
+			</div>
+
+	<!-- name the footer ID -->
+	<h5>
+	<div id="myFooter"></div>
+	</h5>
+
+</body>
+		<!-- run the footer script -->	
+	<script src="scripts/footer.js"></script>
+	
+		<!-- import data directly from javascript file  -->
+	<script type="text/javascript" src="scripts/observeJSON.js"></script>
+  
+		<!-- define the function to display the data -->
+	<script type="text/javascript" src="scripts/observeDisplayCtrlr.js"></script>
+				
+		<!--  function to display the list of observatories from the JSON file  --> 
+	<script type="text/javascript" src="scripts/funcDisplayObservs.js"></script>	
+	
+		<!--  function to sort by a-z  --> 
+	<script type="text/javascript" src="scripts/sorta-z.js"></script>	
+	
+		<!--  function to sort by z-a  --> 
+	<script type="text/javascript" src="scripts/sortz-a.js"></script>
+	
+		<!--  sript to display the observatories once sorted to   --> 
+	<script type="text/javascript" src="scripts/funcDisplaysortobs.js"></script>	
+		
+</html>
+
